@@ -3,11 +3,11 @@ const state = {
 };
 
 const getters = {
-  TEST: state => state.test,
+  TEST: (state) => state.test,
 };
 
 const mutations = {
-  SET_TEST: state => {
+  SET_TEST: (state) => {
     state.test = !state.test;
   },
 };
